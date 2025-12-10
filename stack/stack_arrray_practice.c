@@ -43,6 +43,24 @@ void peek(){
     }
 
 }
+int is_empty()
+{
+    if(top==-1)
+    {
+        return 1;  // true
+    }
+    return 0;  // false
+}
+
+int is_full()
+{
+    if(top==N-1)
+    {
+        return 1;  // true
+    }
+    return 0;  // false
+}
+
 void display()
 {
     int i;
@@ -65,11 +83,16 @@ void main()
 {
     printf("=== Stack Operations Demo ===\n\n");
     
+    printf("Is stack empty? %s\n", is_empty() ? "Yes" : "No");
+    printf("Is stack full? %s\n\n", is_full() ? "Yes" : "No");
+    
     push(10);
     push(20);
     push(30);
     
     printf("\n");
+    printf("Is stack empty? %s\n", is_empty() ? "Yes" : "No");
+    printf("Is stack full? %s\n\n", is_full() ? "Yes" : "No");
     display();
     
     printf("\n");
