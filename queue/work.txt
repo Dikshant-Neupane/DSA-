@@ -1,0 +1,2 @@
+1)Priority queue to slide anusar code lekhera sikera aune.
+2)yesto queue banau jun ma chai m=total size xa bhane m/2 ma insert garera m bata nikalne.
