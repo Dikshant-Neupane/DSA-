@@ -5,8 +5,8 @@
 
 // Global variables (No pointers needed)
 int queue[MAX];
-int front = -1;
-int rear = -1;
+int front = -1;//tala ko
+int rear = -1;//mathi ko
 
 // Function to add an element
 void enqueue(int value) {
@@ -25,6 +25,7 @@ void enqueue(int value) {
 // Function to remove an element
 void dequeue() {
     if (front == -1 || front > rear) {
+        rear=front=-1;
         printf("Queue Underflow! Nothing to remove.\n");
     } else {
         printf("Dequeued: %d\n", queue[front]);
