@@ -1,3 +1,4 @@
+    //////To insert a new node infront of the existing first node and the inserted node should also be linked with the link("Insertion at the front.")[level - easy]
 #include <stdio.h>
 #include <stdlib.h>
 
