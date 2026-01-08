@@ -1,0 +1,2 @@
+1)factorial iteration ma hamro int rakhda kina 100 ma gayesi factorial didaina .Make report and provide a suitabel solution to the problem
+2)Recurssion ko pani labreport (print bhako graph chaiyo ,factorial ko tail,itteration,Recurssion ko k k b hayo graph ko plot garne.)
