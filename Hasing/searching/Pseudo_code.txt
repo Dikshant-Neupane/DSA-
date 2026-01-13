@@ -1,0 +1,7 @@
+//Binary search
+1)see no of array divide it by half (ex:4 xa bhane 2 )
+2) for any array of 1 2 3 4
+-->Here we are doing postion 3 /2 so we get 1.5 which eqauls to "2"
+second postion
+-->Then we determinae which initger is required to be search
+-->if the sorted array has left side and right side and determine of it should goes to right or left
